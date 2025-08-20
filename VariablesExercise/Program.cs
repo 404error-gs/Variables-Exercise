@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string myName = "Genesis";
+            int myAge = 18;
+            char myInitial = 'G';
+            bool isStudent = true;
+            double myHeight = 5.4;
+            decimal myWeight = 125.5m;
+
+
+            Console.WriteLine($"Name: {myName}, I am {myAge} years old, and {myHeight} feet tall");
         }
     }
 }
